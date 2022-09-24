@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './template/home/home.component';
 import { NavberComponent } from './template/navber/navber.component';
 import { DashboardComponent } from './template/dashboard/dashboard.component';
+import { C3boardComponent } from './template/c3board/c3board.component';
+import { SeprobeComponent } from './template/seprobe/seprobe.component';
+import { TurnstileComponent } from './template/turnstile/turnstile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavberComponent,
-    DashboardComponent
+    DashboardComponent,
+    C3boardComponent,
+    SeprobeComponent,
+    TurnstileComponent
   ],
   imports: [
     BrowserModule,
